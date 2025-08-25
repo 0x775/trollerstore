@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>HMDServices</string>
+    <key>CFBundleExecutable</key>
+    <string>HMDServices</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.HMDServices</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>HMDServices</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+    </array>
+	<key>BSServiceDomains</key>
+	<dict>
+	    <key>com.apple.frontboard</key>
+	    <dict>
+	        <key>DerivedServiceRestrictions</key>
+	        <array>
+	            <string>com.apple.uis.applicationStateService</string>
+	            <string>com.apple.uis.applicationSupportService</string>
+	            <string>com.apple.frontboard.layout-monitor</string>
+	        </array>
+	        <key>Services</key>
+	        <dict>
+	            <key>com.apple.frontboard.system-service</key>
+	            <dict/>
+	            <key>com.apple.frontboard.workspace-service</key>
+	            <dict/>
+	        </dict>
+	    </dict>
+	</dict>
+</dict>
+</plist>
